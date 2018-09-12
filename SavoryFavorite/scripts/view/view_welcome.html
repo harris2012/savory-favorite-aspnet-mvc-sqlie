@@ -1,0 +1,31 @@
+<div class="alert alert-info" role="alert">
+    欢迎使用
+</div>
+
+<div class="form-group" ng-show="!items_loaded">
+    <div class="col-sm-12">
+        <img src="images/loading.gif" />列表加载中，请稍后...
+    </div>
+</div>
+<div class="form-group" ng-show="items_loaded && items_message != null && items_message.length > 0">
+    <div class="col-sm-12">
+        <p>{{items_message}}</p>
+    </div>
+</div>
+<div class="popular-group" ng-show="items_loaded">
+    <ul class="popular-items">
+        <li ng-repeat="item in items" class="popular-item">
+            <a href="{{item.host}}" target="_blank">{{item.title}}</a>
+        </li>
+    </ul>
+</div>
+
+<!--暂时没用-->
+<div class="link-group" ng-repeat="linkGroup in linkGroups">
+    <p class="link-title info">{{linkGroup.title}}</p>
+    <ul class="link-items">
+        <li ng-repeat="linkItem in linkGroup.items" class="link-item">
+            <a href="{{linkItem.href}}" target="_blank">{{linkItem.text}}</a>
+        </li>
+    </ul>
+</div>
