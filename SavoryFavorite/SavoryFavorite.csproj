@@ -137,7 +137,7 @@
     <Content Include="scripts\_route.js" />
     <Content Include="scripts\_service.js" />
     <Content Include="scripts\view\view_welcome.html" />
-    <Content Include="scripts\view\menu.html" />
+    <Content Include="scripts\view\view_menu.html" />
     <Content Include="scripts\controller\WelcomeController.js" />
   </ItemGroup>
   <ItemGroup>
