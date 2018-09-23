@@ -1,11 +1,11 @@
-/* ¹²ÓÃ»ù´¡ begin */
+ï»¿/* å…±ç”¨åŸºç¡€ begin */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-/* ¹²ÓÃ»ù´¡ end */
-/* µ¼º½À¸ begin */
+/* å…±ç”¨åŸºç¡€ end */
+/* å¯¼èˆªæ  begin */
 .navbar {
     min-height: 70px;
 }
@@ -28,8 +28,18 @@ ul {
 .bdSug_app {
     display: none;
 }
-/* µ¼º½À¸ end */
-/* Ö÷Ìå begin */
+/* å¯¼èˆªæ  end */
+
+.loading:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: central;
+    width: 32px;
+    height: 32px;
+    background: url('http://static.savory.cn/images/loading.gif') no-repeat;
+}
+
+/* ä¸»ä½“ begin */
 .link-group {
     display: block;
     border: 1px #efefef solid;
@@ -66,4 +76,4 @@ ul {
         display: inline-block;
         line-height: 40px;
     }
-/* Ö÷Ìå end */
+/* ä¸»ä½“ end */
